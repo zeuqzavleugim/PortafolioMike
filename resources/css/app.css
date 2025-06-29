@@ -5,7 +5,7 @@
 @source '../views';
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *)); */
 
 @theme {
     --font-sans:
@@ -67,7 +67,7 @@
   If we ever want to remove these styles, we need to add an explicit border
   color utility to any element that depends on these defaults.
 */
-@layer base {
+/* @layer base {
     *,
     ::after,
     ::before,
@@ -75,7 +75,7 @@
     ::file-selector-button {
         border-color: var(--color-gray-200, currentColor);
     }
-}
+} */
 
 :root {
     --background: oklch(1 0 0);
@@ -113,7 +113,7 @@
     --sidebar-ring: oklch(0.87 0 0);
 }
 
-.dark {
+/* .dark {
     --background: oklch(0.145 0 0);
     --foreground: oklch(0.985 0 0);
     --card: oklch(0.145 0 0);
@@ -146,7 +146,7 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(0.269 0 0);
     --sidebar-ring: oklch(0.439 0 0);
-}
+} */
 
 @layer base {
     * {
