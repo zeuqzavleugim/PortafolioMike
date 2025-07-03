@@ -7,7 +7,12 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link className="navbar-brand" href="/">
-                        <img src={Icons.Logo} className="iconsLogo" alt="Logotipo" title="Logotipo" />
+                        <img 
+                            src={Icons.Logo} 
+                            className="iconsLogo" 
+                            alt="Logotipo" 
+                            title="Logotipo" 
+                            loading="lazy"/>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -15,7 +20,7 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Proyectos</Link>
+                                <Link className="nav-link" href="#">Desarrollos</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href="#">Conoceme</Link>
@@ -24,6 +29,9 @@ export default function Navbar() {
                                 <Link className="nav-link" href="#">Servicios</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" href="#">Planes</Link>
+                            </li>
+                            <li className="navbar-blue">
                                 <Link className="nav-link" href="#">Contacto</Link>
                             </li>
                         </ul>

@@ -7,9 +7,11 @@ export default function Footer() {
             <footer>
                 <div className="footer-info">
                     <div>
-                        <picture>
-                            <img src={Icons.Logo} alt="Logotipo" title="Logotipo" />
-                        </picture>
+                        <Link href="/" className="footer-logo">
+                            <picture>
+                                <img src={Icons.Logo} alt="Logotipo" title="Logotipo" loading="lazy" />
+                            </picture>
+                        </Link>
                     </div>
                     <div className="footer-icons">
                         <Link href="/"><img src={Icons.Correo} alt="Correo" title="Correo" /></Link>
@@ -19,12 +21,14 @@ export default function Footer() {
                 </div>
                 <div className="footer-sitio">
                     <h4>Sitio</h4>
-                    <Link href="#">Inicio</Link>
-                    <Link href="#">Sobre mí</Link>
+                    <Link href="#">Desarrollos</Link>
+                    <Link href="#">Conoceme</Link>
                     <Link href="#">Servicios</Link>
+                    <Link href="#">Planes</Link>
                     <Link href="#">Contacto</Link>
                 </div>
             </footer>
         </>
     );
 }
+                                
