@@ -7,7 +7,7 @@ export default function Footer() {
             <footer>
                 <div className="footer-info">
                     <div>
-                        <Link href="/" className="footer-logo">
+                        <Link href="#inicio" className="footer-logo">
                             <picture>
                                 <img src={Icons.Logo} alt="Logotipo" title="Logotipo" loading="lazy" />
                             </picture>
@@ -15,8 +15,8 @@ export default function Footer() {
                     </div>
                     <div className="footer-icons">
                         <Link href="/"><img src={Icons.Correo} alt="Correo" title="Correo" /></Link>
-                        <Link href="/"><img src={Icons.Github} alt="GitHub" title="GitHub" /></Link>
-                        <Link href="/"><img src={Icons.Linkedin} alt="Linkeding" title="Linkeding" /></Link>
+                        <Link href="https://github.com/zeuqzavleugim" target="_blank"><img src={Icons.Github} alt="GitHub" title="GitHub" /></Link>
+                        <Link href="https://www.linkedin.com/in/miguel-angel-vazquez-aviles-170abb15a/" target="_blank"><img src={Icons.Linkedin} alt="Linkeding" title="Linkeding" /></Link>
                     </div>
                 </div>
                 <div className="footer-sitio">

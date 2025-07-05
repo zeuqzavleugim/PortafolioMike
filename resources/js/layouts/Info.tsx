@@ -5,7 +5,7 @@ import { Icons } from "@/imgs/Icons";
 export default function Info() {
     return(
         <>
-            <header className="first-seccion">
+            <header className="first-seccion" id="conoceme">
                 <div className="seccion-img-perfil">
                     <picture>
                         <img 

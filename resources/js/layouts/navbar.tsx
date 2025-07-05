@@ -4,9 +4,9 @@ import { Icons } from "@/imgs/Icons";
 export default function Navbar() {
     return(
         <>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg" id="inicio">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="/">
+                    <Link className="navbar-brand" href="#inicio">
                         <img 
                             src={Icons.Logo} 
                             className="iconsLogo" 
@@ -23,7 +23,7 @@ export default function Navbar() {
                                 <Link className="nav-link" href="#">Desarrollos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Conoceme</Link>
+                                <Link className="nav-link" href="#conoceme">Conoceme</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href="#">Servicios</Link>
