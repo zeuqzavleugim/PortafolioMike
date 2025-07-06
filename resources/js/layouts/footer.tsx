@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <div className="footer-sitio">
                     <h4>Sitio</h4>
-                    <Link href="#">Desarrollos</Link>
+                    <Link href="#desarrollos">Desarrollos</Link>
                     <Link href="#">Conoceme</Link>
                     <Link href="#">Servicios</Link>
                     <Link href="#">Planes</Link>
