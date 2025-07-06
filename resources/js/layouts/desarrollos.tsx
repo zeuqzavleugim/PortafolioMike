@@ -5,7 +5,7 @@ export default function Desarrollo() {
     return(
         <>
             <section id="desarrollos" className="desarrollos">
-                <h2>Desarrollos</h2>
+                <h3>Desarrollos</h3>
                 <div className="carts-div">
                     <Cart
                         Image={Paginas.Decoracion}
@@ -23,24 +23,31 @@ export default function Desarrollo() {
                     />
                     <Cart
                         Image={Paginas.Textiles}
-                        Alts="..."
-                        Title="..."
-                        Description="..."
-                        Url="..."
+                        Alts="Página web para venta de textiles industriales a empresas"
+                        Title="Textiles"
+                        Description="Sitio web para empresa de textiles industriales, orientado a ventas B2B. ¡Conoce el proyecto!"
+                        Url="https://www.magicpop.com.mx/"
                     />
                     <Cart
                         Image={Paginas.Romo}
-                        Alts="..."
-                        Title="..."
-                        Description="..."
-                        Url="..."
+                        Alts="Diseño de página web para firma de abogados en Estados Unidos"
+                        Title="Romo & Becerril"
+                        Description="Página web para firma de abogados ofreciendo servicios legales en Estados Unidos."
+                        Url="https://www.rbip.com.mx/"
                     />
                     <Cart
                         Image={Paginas.Impresos}
-                        Alts="..."
-                        Title="..."
-                        Description="..."
-                        Url="..."
+                        Alts="Página web para empresa de decoración dirigida a pequeñas empresas"
+                        Title="Magic pop Impresos"
+                        Description="Así luce una página web creada para negocios de decoración que venden a pymes."
+                        Url="https://magicpop-impresos.mx/"
+                    />
+                    <Cart
+                        Image={Paginas.Impresos}
+                        Alts="Ejemplo de página web, tu próximo proyecto puede lucir así"
+                        Title="¿Listo para ver cómo puede lucir tu próximo proyecto digital?"
+                        Description="Tu próximo sitio web podría verse así. ¡Descúbrelo!"
+                        Url="#contacto"
                     />
                 </div>
             </section>

@@ -3,6 +3,8 @@ import Navbar from "../layouts/navbar";
 import Footer from "@/layouts/footer";
 import Info from "@/layouts/Info";
 import Desarrollo from "@/layouts/desarrollos";
+import Planes from "@/layouts/planes";
+
 export default function Home() {
     return(
         <>
@@ -10,6 +12,7 @@ export default function Home() {
             <Navbar />
             <Info />
             <Desarrollo/>
+            <Planes/>
             <Footer />
         </>
     );

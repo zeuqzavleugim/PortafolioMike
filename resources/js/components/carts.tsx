@@ -2,10 +2,10 @@ export default function Cart(props: {Image: string, Title: string, Description: 
  return(
     <>
         <div className="carts">
-            <img src={props.Image} alt={props.Alts} />
-            <h3> {props.Title} </h3>
+            <img src={props.Image} alt={props.Alts} title={props.Alts} loading="lazy" />
+            <h2> {props.Title} </h2>
             <p> {props.Description} </p>
-            <a href={props.Url} target="_blank">Visitar Sitio</a>
+            <a href={props.Url} target="_blank" title={props.Title}>Visitar Sitio</a>
         </div>
     </>
  );   

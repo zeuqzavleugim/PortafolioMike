@@ -1,9 +1,11 @@
 import { Icons } from "@/imgs/Icons";
 import { Link } from "@inertiajs/react";
+import WhatsButon from "./whatsButon";
 
 export default function Footer() {
     return(
         <>
+            <WhatsButon />
             <footer>
                 <div className="footer-info">
                     <div>
