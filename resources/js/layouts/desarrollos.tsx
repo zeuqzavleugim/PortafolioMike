@@ -13,7 +13,35 @@ export default function Desarrollo() {
                         Title="Decoración de Oficinas"
                         Description="Diseño web para empresa de decoración que transforma espacios corporativos. ¡Descubre el proyecto!"
                         Url="https://decoraciondeoficinas.com.mx/"
-                    ></Cart>
+                    />
+                    <Cart
+                        Image={Paginas.Beckman}
+                        Alts="Diseño de tienda en línea para venta de mochilas en México"
+                        Title="Beckman Mexico"
+                        Description="Así luce un e-commerce para mochilas hecho a medida para el mercado mexicano. ¡Descúbrelo!"
+                        Url="https://beckmann-mexico.com/"
+                    />
+                    <Cart
+                        Image={Paginas.Textiles}
+                        Alts="..."
+                        Title="..."
+                        Description="..."
+                        Url="..."
+                    />
+                    <Cart
+                        Image={Paginas.Romo}
+                        Alts="..."
+                        Title="..."
+                        Description="..."
+                        Url="..."
+                    />
+                    <Cart
+                        Image={Paginas.Impresos}
+                        Alts="..."
+                        Title="..."
+                        Description="..."
+                        Url="..."
+                    />
                 </div>
             </section>
         </>
