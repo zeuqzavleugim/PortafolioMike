@@ -16,7 +16,7 @@ export default function CartPlans(props: {Titulo: string, Presio1: number, Presi
                             ))}
                         </ul>
                     </div>
-                    <a href="mailto:contacto@maykcoffe.com.mx">
+                    <a href="mailto:contacto@maykcoffe.com.mx" title="contacto">
                         Contacto
                     </a>
                 </div>
@@ -38,7 +38,7 @@ export default function CartPlans(props: {Titulo: string, Presio1: number, Presi
                             ))}
                         </ul>
                     </div>
-                    <a href="mailto:contacto@maykcoffe.com.mx">
+                    <a href="mailto:contacto@maykcoffe.com.mx" title="contacto">
                         Contacto
                     </a>
                 </div>

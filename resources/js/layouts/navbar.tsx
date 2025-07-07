@@ -6,7 +6,7 @@ export default function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg" id="inicio">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="#inicio">
+                    <Link className="navbar-brand" href="#inicio" title="maykcoffe">
                         <img 
                             src={Icons.Logo} 
                             className="iconsLogo" 
@@ -20,19 +20,19 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link" href="#desarrollos">Desarrollos</Link>
+                                <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#conoceme">Conoceme</Link>
+                                <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Servicios</Link>
+                                <Link className="nav-link" href="#" title="servicios">Servicios</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#planes">Planes</Link>
+                                <Link className="nav-link" href="#planes" title="planes">Planes</Link>
                             </li>
                             <li className="navbar-blue">
-                                <Link className="nav-link" href="#">Contacto</Link>
+                                <Link className="nav-link" href="#contacto" title="contacto">Contacto</Link>
                             </li>
                         </ul>
                     </div>

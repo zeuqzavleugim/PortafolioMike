@@ -41,13 +41,13 @@ export default function Info() {
                         marketing digital a otro nivel.
                     </p>
                     <div className="seccion-icons">
-                        <a href="">
+                        <a href="#contacto" title="contacto">
                             <img src={Icons.Correo} alt="Contacto" title="Contacto" />
                         </a>
-                        <a href="https://github.com/zeuqzavleugim" target="_blank">
+                        <a href="https://github.com/zeuqzavleugim" target="_blank" title="GitHub">
                             <img src={Icons.Github} alt="GitHub" title="GitHub"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/miguel-angel-vazquez-aviles-170abb15a/" target="_blank">
+                        <a href="https://www.linkedin.com/in/miguel-angel-vazquez-aviles-170abb15a/" target="_blank" title="Linkedin">
                             <img src={Icons.Linkedin} alt="Linkedin" title="Linkedin"/>
                         </a>
                     </div>
