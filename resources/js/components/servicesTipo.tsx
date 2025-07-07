@@ -25,7 +25,23 @@ export default function ServiciosTipo(props:{Tipo: boolean}) {
         );
     }else if (props.Tipo === false){
         return(
-            <></>
+            <>
+                <div>
+                    <div>
+                        <h2></h2>
+                    </div>
+                    <div>
+                        {/* aqui usar mejor .map */}
+                        <p></p>
+                    </div>
+                    <div> 
+                        <Link href="" title="">Cotiza</Link>
+                    </div>
+                </div>
+                <div>
+                    <img src="" alt="" />
+                </div>
+            </>
         );
     }
 }
