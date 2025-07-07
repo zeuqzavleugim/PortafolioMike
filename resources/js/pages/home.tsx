@@ -5,6 +5,7 @@ import Info from "@/layouts/Info";
 import Desarrollo from "@/layouts/desarrollos";
 import Planes from "@/layouts/planes";
 import Formulario from "@/layouts/formulario";
+import Servicios from "@/layouts/servises";
 
 export default function Home() {
     return(
@@ -14,6 +15,9 @@ export default function Home() {
             <Info />
             <Desarrollo/>
             <Planes/>
+            <main>
+                <Servicios/>
+            </main>
             <main className="secForm">
                 <Formulario/>
             </main>
