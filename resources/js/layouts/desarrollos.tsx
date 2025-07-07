@@ -43,7 +43,7 @@ export default function Desarrollo() {
                         Url="https://magicpop-impresos.mx/"
                     />
                     <Cart
-                        Image={Paginas.Impresos}
+                        Image={Paginas.TuDesarrollo}
                         Alts="Ejemplo de página web, tu próximo proyecto puede lucir así"
                         Title="¿Listo para ver cómo puede lucir tu próximo proyecto digital?"
                         Description="Tu próximo sitio web podría verse así. ¡Descúbrelo!"

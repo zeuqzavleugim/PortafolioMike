@@ -29,7 +29,7 @@ export default function Navbar() {
                                 <Link className="nav-link" href="#">Servicios</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#">Planes</Link>
+                                <Link className="nav-link" href="#planes">Planes</Link>
                             </li>
                             <li className="navbar-blue">
                                 <Link className="nav-link" href="#">Contacto</Link>

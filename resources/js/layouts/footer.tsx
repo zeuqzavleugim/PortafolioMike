@@ -26,7 +26,7 @@ export default function Footer() {
                     <Link href="#desarrollos">Desarrollos</Link>
                     <Link href="#">Conoceme</Link>
                     <Link href="#">Servicios</Link>
-                    <Link href="#">Planes</Link>
+                    <Link href="#planes">Planes</Link>
                     <Link href="#">Contacto</Link>
                 </div>
             </footer>

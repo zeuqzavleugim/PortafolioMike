@@ -8,7 +8,7 @@ import Planes from "@/layouts/planes";
 export default function Home() {
     return(
         <>
-            <Head title="Desarrollador Web | Sitios, SEO y Marketing Digital" />
+            <Head title="Desarrolladores Web | Sitios, SEO y Marketing Digital" />
             <Navbar />
             <Info />
             <Desarrollo/>

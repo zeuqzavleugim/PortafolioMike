@@ -6,7 +6,6 @@
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 
 *{
-    /* background-color: #F9FAFB; */
     color: #1F2937;
     transition: 500ms;
 }
@@ -124,9 +123,11 @@ footer{
     font-size: 1.12vw;
     width: 90%;
     padding: 0 1rem;
+    color: #1F2937;
 }
 .seccion-info-perfil >h1{
     text-align: center;
+    color: #1F2937;
 }
 .seccion-icons{
     display: flex;
@@ -137,6 +138,7 @@ footer{
 .seccion-icons > a{
     padding: 1.2rem;
     width: 13vh;
+    color: #1F2937;
 }
 .desarrollos{
     text-align: center;
@@ -159,6 +161,7 @@ footer{
     border-radius: 25px;
     border: 1px solid #FF6B6B;
     box-shadow: 2px 3px 5px 1px #1F2937;
+    color: #1F2937;
 }
 .carts > img{
     width: 100%;
@@ -168,9 +171,10 @@ footer{
 .carts > h2{
     text-align: center;
     font-size: 1.6vw; 
+    color: #1F2937;
 }
 .carts > p{
-    /* text-align: left; */
+    color: #1F2937;
     padding: 1rem;
 }
 .carts > a{
@@ -188,7 +192,110 @@ footer{
     &:hover{
         box-shadow: 0px 0px 0px 0px;
         transform: translate(2px, 3px);
-        /* border: 2px solid #3ABEFF; */
+    }
+}
+.planes{
+    color: #1F2937;
+    text-align: center;
+    padding: 2rem;
+}
+.planes > .carts-div{
+    display: grid;
+    max-width: 95%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    padding: 2rem;
+    justify-items: center;
+    justify-self: center;
+}
+.planes > h3{
+    font-size: 4vw;
+    padding: 0 1rem;
+}
+.cartTipUno{
+    display: grid;
+    width: 20rem;
+    border: 1px solid #FF6B6B;
+    border-radius: 25px;
+    padding: 1.5rem;
+}
+.cartTipUno > h2{
+    font-size: 1.6vw;
+}
+.cartTipoPrecio{
+    display: flex;
+    justify-content: center;
+}
+.cartTipoPrecio > p{
+    font-size: 2.5vw;
+}
+.cartTipoPrecio > span{
+    font-size: 1vw;
+}
+.cartTipoLista > ul{
+    justify-items: baseline;
+    list-style: inside;
+    color: #1F2937;
+}
+.cartTipUno > a{
+    text-decoration: none;
+    color: #1F2937;
+    background: #3ABEFF;
+    border-radius: 10px;
+    width: 52%;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    padding: 0.2rem;
+    margin: 0.9rem;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+    &:hover{
+        box-shadow: 0px 0px 0px 0px;
+        transform: translate(2px, 3px);
+    }
+}
+.cartTipDos{
+    display: grid;
+    width: 21rem;
+    border: 1px solid #1F2937;
+    border-radius: 25px;
+    padding: 1.5rem;
+    background: #FF6B6B;
+    color: #FFFFFF;
+}
+.cartTipDos > h2{
+    font-size: 1.6vw;
+}
+.cartTipDos > p{
+    color: #FFFFFF;
+}
+.cartTipDos > .cartTipoPrecio > p, .cartTipDos > .cartTipoPrecio > p > b, .cartTipDos > .cartTipoPrecio > span {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.cartTipoListaB > ul{
+    justify-items: baseline;
+    list-style: inside;
+}
+.cartTipoListaB > ul > li{
+    color: #FFFFFF;
+}
+.cartTipDos > a{
+    text-decoration: none;
+    color: #1F2937;
+    background: #3ABEFF;
+    border-radius: 10px;
+    width: 52%;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    padding: 0.2rem;
+    margin: 0.9rem;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+    &:hover{
+        box-shadow: 0px 0px 0px 0px;
+        transform: translate(2px, 3px);
     }
 }
 @media (min-width: 768px) and (max-width: 1024px){
@@ -207,6 +314,33 @@ footer{
     }
     .seccion-info-perfil >h1{
         font-size: 2.6vw;
+    }
+    .cartTipUno{
+        width: 16rem;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+    .cartTipUno > h2{
+        font-size: 2.6vw;
+    }
+    .cartTipoPrecio > p{
+        font-size: 3.5vw;
+    }
+    .cartTipoPrecio > span{
+        font-size: 1.3vw;
+    }
+    .cartTipDos{
+        width: 18.5rem;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+    .cartTipDos > h2{
+        font-size: 3.5vw;
+    }
+    .planes > .carts-div{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 1rem;
     }
 }
 @media (max-width: 767px){
@@ -244,5 +378,34 @@ footer{
     }
     .carts{
         width: 17rem;
+    }
+    .carts > h2{
+        font-size: 7vw; 
+    }
+    .planes > h3{
+        font-size: 6.2vw;
+        padding: 0 1rem;
+    }
+    .cartTipUno{
+        width: 16rem;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+    .cartTipUno > h2{
+        font-size: 6vw;
+    }
+    .cartTipoPrecio > p{
+        font-size: 9.5vw;
+    }
+    .cartTipoPrecio > span{
+        font-size: 3.5vw;
+    }
+    .cartTipDos{
+        width: 18.4rem;
+        border-radius: 15px;
+        padding: 0.5rem;
+    }
+    .cartTipDos > h2{
+        font-size: 7.8vw;
     }
 }
