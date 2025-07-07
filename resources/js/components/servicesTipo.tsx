@@ -1,6 +1,6 @@
 import { Link } from "@inertiajs/react";
 
-export default function ServiciosTipo(props:{Tipo: boolean}) {
+export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string}) {
     if (props.Tipo === true) {
         return(
             <>
@@ -10,14 +10,16 @@ export default function ServiciosTipo(props:{Tipo: boolean}) {
                     </div>
                     <div>
                         <div>
-                            <h2></h2>
+                            <h2> {props.Titulo} </h2>
                         </div>
                         <div>
                             {/* aqui usar mejor .map */}
-                            <p></p>
+                            {props.Texto.map((texto, index) =>(
+                                <p key={index}>{texto}</p>
+                            ))}
                         </div>
                         <div>
-                            <Link href="" title="">Cotiza</Link>
+                            <Link href={props.Ruta} title="">Cotiza</Link>
                         </div>
                     </div>
                 </div>
@@ -28,14 +30,16 @@ export default function ServiciosTipo(props:{Tipo: boolean}) {
             <>
                 <div>
                     <div>
-                        <h2></h2>
+                        <h2> {props.Titulo} </h2>
                     </div>
                     <div>
                         {/* aqui usar mejor .map */}
-                        <p></p>
+                        {props.Texto.map((texto, index) =>(
+                            <p key={index}>{texto}</p>
+                        ))}
                     </div>
                     <div> 
-                        <Link href="" title="">Cotiza</Link>
+                        <Link href={props.Ruta} title="">Cotiza</Link>
                     </div>
                 </div>
                 <div>
