@@ -82,6 +82,7 @@ export default function Formulario() {
 
             if (response.status === 200) {
                 window.location.href = '/';
+                alert('gracias por contactarme, pronto me pondré en contacto contigo.');
             }
         } catch (error) {
             alert('Hubo un error al enviar el formulario.');
@@ -179,7 +180,7 @@ export default function Formulario() {
                                 name="checked"
                                 checked={form.checked}
                                 onChange={handleChange}
-                                className="form-control"
+                                className="form-control1"
                             />
                             Acepto las Políticas de Privacidad
                         </label>

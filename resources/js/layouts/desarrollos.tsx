@@ -13,6 +13,7 @@ export default function Desarrollo() {
                         Title="Decoración de Oficinas"
                         Description="Diseño web para empresa de decoración que transforma espacios corporativos. ¡Descubre el proyecto!"
                         Url="https://decoraciondeoficinas.com.mx/"
+                        Tipo={true}
                     />
                     <Cart
                         Image={Paginas.Beckman}
@@ -20,6 +21,7 @@ export default function Desarrollo() {
                         Title="Beckman Mexico"
                         Description="Así luce un e-commerce para mochilas hecho a medida para el mercado mexicano. ¡Descúbrelo!"
                         Url="https://beckmann-mexico.com/"
+                        Tipo={true}
                     />
                     <Cart
                         Image={Paginas.Textiles}
@@ -27,6 +29,7 @@ export default function Desarrollo() {
                         Title="Textiles"
                         Description="Sitio web para empresa de textiles industriales, orientado a ventas B2B. ¡Conoce el proyecto!"
                         Url="https://www.magicpop.com.mx/"
+                        Tipo={true}
                     />
                     <Cart
                         Image={Paginas.Romo}
@@ -34,6 +37,7 @@ export default function Desarrollo() {
                         Title="Romo & Becerril"
                         Description="Página web para firma de abogados ofreciendo servicios legales en Estados Unidos."
                         Url="https://www.rbip.com.mx/"
+                        Tipo={true}
                     />
                     <Cart
                         Image={Paginas.Impresos}
@@ -41,6 +45,7 @@ export default function Desarrollo() {
                         Title="Magic pop Impresos"
                         Description="Así luce una página web creada para negocios de decoración que venden a pymes."
                         Url="https://magicpop-impresos.mx/"
+                        Tipo={true}
                     />
                     <Cart
                         Image={Paginas.TuDesarrollo}
@@ -48,6 +53,7 @@ export default function Desarrollo() {
                         Title="¿Listo para ver cómo puede lucir tu próximo proyecto digital?"
                         Description="Tu próximo sitio web podría verse así. ¡Descúbrelo!"
                         Url="#contacto"
+                        Tipo={false}
                     />
                 </div>
             </section>
