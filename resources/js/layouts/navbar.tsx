@@ -4,7 +4,7 @@ import { Icons } from "@/imgs/Icons";
 export default function Navbar() {
     return(
         <>
-        <nav className="navbar bg-body-tertiary fixed-top">
+        <nav className="navbar navbar-contraint">
             <div className="container-fluid">
                 <Link className="navbar-brand" href="#inicio" title="maykcoffe">
                     <img 
@@ -51,28 +51,24 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-            <nav className="navbar navbar-expand-lg" id="inicio">
-                <div className="container-fluid">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#" title="servicios">Servicios</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#planes" title="planes">Planes</Link>
-                            </li>
-                            <li className="navbar-blue">
-                                <Link className="nav-link" href="#contacto" title="contacto">Contacto</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <nav className="nav-var-expain" id="inicio">
+                <ul className="navbar-nava">
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#" title="servicios">Servicios</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" href="#planes" title="planes">Planes</Link>
+                    </li>
+                    <li className="navbar-blue">
+                        <Link className="nav-link" href="#contacto" title="contacto">Contacto</Link>
+                    </li>
+                </ul>
             </nav>
         </>
     );
