@@ -15,23 +15,28 @@
     align-items: center;
     justify-content: center;
 }
-.nav-var-expain ul{
+.nav-var-expain .navbar-nava{
     display: flex;
+    width: 75%;
+    justify-content: space-evenly;
 }
-.nav-var-expain ul li{
+.nav-var-expain .navbar-nava li{
     height: 3rem;
     text-align: center;
     align-items: center;
 }
-.nav-var-expain ul li a{
+.nav-var-expain .navbar-nava li a{
     align-items: center;
     justify-content: center;
     height: 100%;
     display: flex;
 }
-.navbar-contraint{
+.navbar-toggler{
     display: none;
 }
+/* .navbar-contraint{
+    display: none;
+} */
 .collapse{
     visibility: visible;
     justify-content: flex-end;
@@ -76,7 +81,7 @@
     }
 }
 .iconsLogo{
-    width: 6rem;
+    width: 9vw;
     object-fit: cover;
 }
 /*  */
@@ -410,9 +415,23 @@ form > .formulario-div{
     font-size: 16px;
     color: green;
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
+    }
+    .nav-var-expain .navbar-nava{
+        display: none;
+    }
+    .navbar-toggler{
+        display: initial;
+    }
+    .nav-item{
+        margin: 0 1rem;
+        width: auto;
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 3vw;
     }
     .seccion-img-perfil > picture > img{
         border-radius: 25px;
@@ -463,7 +482,24 @@ form > .formulario-div{
         width: 100%;
     }
 }
-@media (max-width: 767px){
+@media (max-width: 747px){
+    .nav-var-expain .navbar-nava{
+        display: none;
+    }
+    .navbar-toggler{
+        display: initial;
+    }
+    .nav-item{
+        margin: 0 1rem;
+        width: auto;
+        text-align: center;
+    }
+    .nav-link{
+        font-size: 6vw;
+    }
+    .iconsLogo{
+        width: 20vw;
+    }
     footer{
         font-size: 1.4rem;
         display: grid;
