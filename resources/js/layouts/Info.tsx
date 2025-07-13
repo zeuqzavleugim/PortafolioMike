@@ -10,8 +10,8 @@ export default function Info() {
                     <picture>
                         <img 
                             src={General.Perfil} 
-                            alt="Foto de Perfil estilo Funco" 
-                            title="Foto de Perfil estilo Funco" 
+                            alt="Foto estilo Funco" 
+                            title="Foto estilo Funco" 
                             loading="lazy" />
                     </picture>
                 </div>

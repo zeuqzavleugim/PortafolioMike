@@ -143,13 +143,15 @@ footer{
 .first-seccion{
     display: flex;
     padding: 1rem;
-    width: 100%;
+    width: 95%;
+    justify-self: center;
 }
 .seccion-img-perfil > picture > img{
     padding: 0rem;
     border-radius: 50px;
     width: 80%;
     justify-self: center;
+    box-shadow: 3px 3px 7px 1px #1F2937 ;
 }
 .seccion-info-perfil{
     font-size: 1.12vw;
