@@ -9,9 +9,11 @@ import Formulario from "@/layouts/formulario";
 export default function Home() {
     return(
         <>
-            <Head title="Desarrolladores Web | Sitios, SEO y Marketing Digital" />
+            <Head title="Agencia de Desarrollo Web y SEO en CDMX | Sitios que Venden - MaykCoffe" />
             <Navbar />
+            <hr />
             <Info />
+            <hr />
             <Desarrollo/>
             <Planes/>
             <main className="secForm">

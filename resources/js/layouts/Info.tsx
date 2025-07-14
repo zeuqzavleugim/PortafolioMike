@@ -17,39 +17,28 @@ export default function Info() {
                 </div>
                 <div className="seccion-info-perfil">
                     <h1>
-                        Diseño y Desarrollo Web con SEO  Impulsa tu 
-                        Negocio Online
+                        Agencia de Desarrollo Web y SEO en CDMX para 
+                        Impulsar tu Negocio Online
                     </h1>
                     <p>
-                        Desarrollo sitios y aplicaciones web modernas, 
-                        rápidas y listas para posicionarse en Google.
-                        <br /><br /> 
-                        Trabajo con tecnologías como Laravel y React, 
-                        cuidando cada detalle desde el código hasta 
-                        la experiencia del usuario, para que tu 
-                        negocio no solo luzca bien, sino venda. 
-                        <br /><br />
-                        Aplico estrategias SEO, analizo el rendimiento 
-                        con herramientas de Google y transformo tus 
-                        ideas en soluciones digitales que atraen 
-                        clientes. 
-                        <br /><br />
-                        Ya sea que necesites un portafolio 
-                        simple o un sitio completo para impulsar tu 
-                        empresa, estoy aquí para ayudarte a crecer 
-                        online y preparar el camino hacia un 
-                        marketing digital a otro nivel.
+                        Creamos páginas web y aplicaciones modernas, 
+                        rápidas y optimizadas para Google. 
+                        <br />
+                        En MaykCoffe diseñamos estrategias SEO que 
+                        mejoran tu posición en buscadores, analizamos 
+                        el rendimiento con herramientas de Google y 
+                        transformamos tu negocio en un imán de clientes.
+                        <br />
+                        ¿Necesitas un sitio corporativo, un portafolio 
+                        o una tienda online? Te ayudamos a crecer con 
+                        marketing digital, posicionarte en Google y 
+                        atraer más ventas.
+                        <br />
+                        ¡Cotiza tu proyecto sin costo y lleva tu 
+                        negocio al siguiente nivel!.
                     </p>
                     <div className="seccion-icons">
-                        <a href="#contacto" title="contacto">
-                            <img src={Icons.Correo} alt="Contacto" title="Contacto" />
-                        </a>
-                        <a href="https://github.com/zeuqzavleugim" target="_blank" title="GitHub">
-                            <img src={Icons.Github} alt="GitHub" title="GitHub"/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/miguel-angel-vazquez-aviles-170abb15a/" target="_blank" title="Linkedin">
-                            <img src={Icons.Linkedin} alt="Linkedin" title="Linkedin"/>
-                        </a>
+                        <Link href="" className="navbar-blue">Cotiza Aqui</Link>
                     </div>
                 </div>
             </header>

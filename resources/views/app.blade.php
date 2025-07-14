@@ -6,19 +6,7 @@
 
 
         <title inertia>{{ config('app.name', 'Portafolio Mike') }}</title>
-        <meta name="description" content="Desarrollador web, creo sitios completos, landing pages y maquetados visuales para negocios. Optimizo tu página con SEO técnico y estrategias para que Google te posicione y atraigas más clientes sin depender solo de anuncios." />
-        <meta name="keywords" content="desarrollador web freelance, creación de sitios web, landing pages, SEO, optimización para Google, consultoría SEO, maquetación web, marketing digital, posicionamiento web, México" />
-
-        <meta property="og:title" content="Desarrollador Web | Sitios, SEO y Marketing Digital" />
-        <meta property="og:description" content="Transformo tu idea en un sitio web que vende. Desde páginas completas, optimización SEO, consultorías y estrategias para que tu negocio aparezca primero en Google y atraiga clientes." />
-        <meta property="og:type" content="website" />
-        <!-- <meta property="og:url" content="https://tusitio.com" /> -->
-        <!-- <meta property="og:image" content="https://tusitio.com/tu-imagen-destacada.jpg" /> -->
-
-        <meta name="twitter:title" content="Desarrollador Web | Sitios, SEO y Marketing Digital" />
-        <meta name="twitter:description" content="Sitios web profesionales, optimización SEO y marketing digital para que tu negocio crezca online. Atrae más clientes desde Google y vende sin complicarte." />
-        <meta name="twitter:card" content="summary_large_image" />
-        <!-- <meta name="twitter:image" content="https://tusitio.com/tu-imagen-destacada.jpg" /> -->
+        @include('descripcion')
 
         <!-- <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
