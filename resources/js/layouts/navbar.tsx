@@ -16,7 +16,7 @@ export default function Navbar() {
                 </Link>
                 <ul className="navbar-nava">
                     <li className="nav-item">
-                        <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
+                        <Link className="nav-link" href="#portafolios" title="portafolios">Portafolios</Link>
                     </li>
                     <li className="nav-item">
                     <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>

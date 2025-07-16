@@ -23,17 +23,17 @@ export default function Info() {
                     <p>
                         Creamos páginas web y aplicaciones modernas, 
                         rápidas y optimizadas para Google. 
-                        <br />
+                        <br /><br />
                         En MaykCoffe diseñamos estrategias SEO que 
                         mejoran tu posición en buscadores, analizamos 
                         el rendimiento con herramientas de Google y 
                         transformamos tu negocio en un imán de clientes.
-                        <br />
+                        <br /><br />
                         ¿Necesitas un sitio corporativo, un portafolio 
                         o una tienda online? Te ayudamos a crecer con 
                         marketing digital, posicionarte en Google y 
                         atraer más ventas.
-                        <br />
+                        <br /><br />
                         ¡Cotiza tu proyecto sin costo y lleva tu 
                         negocio al siguiente nivel!.
                     </p>
