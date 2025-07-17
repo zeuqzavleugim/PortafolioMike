@@ -6,7 +6,7 @@ export default function Navbar() {
         <>
         <nav className="navbar navbar-contraint">
             <div className="container-fluid nav-var-expain">
-                <Link className="navbar-brand" href="#inicio" title="maykcoffe">
+                <Link className="navbar-brand" href={route('home')} title="maykcoffe">
                     <img 
                         src={Icons.Logo} 
                         className="iconsLogo" 
@@ -49,6 +49,9 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
+                                <Link className="nav-link" href={route('home')} title="desarrollos">Inicio</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
                             </li>
                             <li className="nav-item">
@@ -61,7 +64,7 @@ export default function Navbar() {
                                 <Link className="nav-link" href="#planes" title="planes">Planes</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#contacto" title="contacto">Contacto</Link>
+                                <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
                             </li>
                         </ul>
                     </div>

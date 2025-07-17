@@ -426,6 +426,7 @@ form > .formulario-div{
     align-items: center;
 }
 .formulario-buton > button{
+    display: flex;
     text-decoration: none;
     color: #1F2937;
     background: #3ABEFF;
@@ -435,6 +436,7 @@ form > .formulario-div{
     justify-self: center;
     align-items: center;
     justify-items: center;
+    justify-content: center;
     padding: 0.2rem;
     margin: 0.9rem;
     box-shadow: 2px 3px 5px 1px #1F2937;

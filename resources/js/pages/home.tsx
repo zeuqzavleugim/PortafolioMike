@@ -16,6 +16,13 @@ export default function Home() {
             <hr />
             <Desarrollo/>
             <Planes/>
+            <section className="desarrollos">
+                <hr />
+                <h2>
+                    Desarrollo de páginas web rápidas y seguras
+                </h2>
+                <hr />
+            </section>
             <Formulario/>
             <Footer />
         </>

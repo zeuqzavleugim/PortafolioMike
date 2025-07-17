@@ -59,6 +59,10 @@ export default function Desarrollo() {
                         Tipo={false}
                     />
                 </div>
+                <hr />
+                <h2>
+                    Desarrollo de páginas web rápidas y seguras
+                </h2>
             </section>
         </>
     );
