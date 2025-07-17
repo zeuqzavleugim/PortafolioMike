@@ -7,6 +7,9 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('home');
 })->name('home');
+Route::get('/contacto', function () {
+    return Inertia::render('contacto');
+})->name('contacto');
 
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 

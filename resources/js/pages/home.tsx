@@ -16,9 +16,7 @@ export default function Home() {
             <hr />
             <Desarrollo/>
             <Planes/>
-            <main className="secForm">
-                <Formulario/>
-            </main>
+            <Formulario/>
             <Footer />
         </>
     );

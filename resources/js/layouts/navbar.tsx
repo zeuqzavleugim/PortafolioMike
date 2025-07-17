@@ -28,7 +28,7 @@ export default function Navbar() {
                         <Link className="nav-link" href="#planes" title="planes">Planes</Link>
                     </li>
                     <li className="navbar-blue">
-                        <Link className="nav-link" href="#contacto" title="contacto">Contacto</Link>
+                        <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
                     </li>
                 </ul>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">

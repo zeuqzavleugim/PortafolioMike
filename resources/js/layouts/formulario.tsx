@@ -91,114 +91,116 @@ export default function Formulario() {
     };
 
     return (
-        <div className="formulario" id="contacto">
-            <h2>Contáctame</h2>
-            <form onSubmit={handleSubmit} autoComplete="off">
-                <div className="formulario-div">
+        <main className="secForm">
+            <div className="formulario" id="contacto">
+                <h2>Contáctame</h2>
+                <form onSubmit={handleSubmit} autoComplete="off">
+                    <div className="formulario-div">
 
-                    <div className="inpud-datos">
-                        <input
-                            type="text"
-                            name="nombre"
-                            placeholder="Nombre *"
-                            value={form.nombre}
-                            onChange={handleChange}
-                            className={`form-control ${errors.nombre ? 'is-invalid' : ''}`}
-                        />
-                        <span className="color-blanc">{errors.nombre}</span>
-                    </div>
-
-                    <div className="inpud-datos">
-                        <input
-                            type="email"
-                            name="correo"
-                            placeholder="Correo *"
-                            value={form.correo}
-                            onChange={handleChange}
-                            className={`form-control ${errors.correo ? 'is-invalid' : ''}`}
-                        />
-                        <span className="color-blanc">{errors.correo}</span>
-                    </div>
-
-                    <div className="inpud-datos">
-                        <input
-                            type="text"
-                            name="ciudad"
-                            placeholder="Ciudad *"
-                            value={form.ciudad}
-                            onChange={handleChange}
-                            className={`form-control ${errors.ciudad ? 'is-invalid' : ''}`}
-                        />
-                        <span className="color-blanc">{errors.ciudad}</span>
-                    </div>
-
-                    <div className="inpud-datos">
-                        <input
-                            type="tel"
-                            name="telefono"
-                            placeholder="Teléfono *"
-                            value={form.telefono}
-                            onChange={handleChange}
-                            className={`form-control ${errors.telefono ? 'is-invalid' : ''}`}
-                        />
-                        <span className="color-blanc">{errors.telefono}</span>
-                    </div>
-
-                    <div className="inpud-select">
-                        <select
-                            name="asunto"
-                            value={form.asunto}
-                            onChange={handleChange}
-                            className={`form-control ${errors.asunto ? 'is-invalid' : ''}`}
-                        >
-                            <option value="">-- Selecciona Asunto --</option>
-                            <option value="Creación de sitio web">Creación de sitio web</option>
-                            <option value="Landing Pages">Landing Pages</option>
-                            <option value="Maquetación de Sitio web">Maquetación de Sitio web</option>
-                            <option value="Consultoría SEO">Consultoría SEO</option>
-                            <option value="Optimización para motores de búsqueda">Optimización SEO</option>
-                            <option value="Otra">Otra</option>
-                        </select>
-                        <span className="color-blanc">{errors.asunto}</span>
-                    </div>
-
-                    <div className="inpud-text">
-                        <textarea
-                            name="mensaje"
-                            placeholder="Mensaje *"
-                            value={form.mensaje}
-                            onChange={handleChange}
-                            className={`form-control ${errors.mensaje ? 'is-invalid' : ''}`}
-                        ></textarea>
-                        <span className="color-blanc">{errors.mensaje}</span>
-                    </div>
-
-                    <div className="inpud-datos color-blanc">
-                        <label className="contac-formul-div-politics">
+                        <div className="inpud-datos">
                             <input
-                                type="checkbox"
-                                name="checked"
-                                checked={form.checked}
+                                type="text"
+                                name="nombre"
+                                placeholder="Nombre *"
+                                value={form.nombre}
                                 onChange={handleChange}
-                                className="form-control1"
+                                className={`form-control ${errors.nombre ? 'is-invalid' : ''}`}
                             />
-                            Acepto las Políticas de Privacidad
-                        </label>
-                        <span>{errors.checked}</span>
+                            <span className="color-blanc">{errors.nombre}</span>
+                        </div>
+
+                        <div className="inpud-datos">
+                            <input
+                                type="email"
+                                name="correo"
+                                placeholder="Correo *"
+                                value={form.correo}
+                                onChange={handleChange}
+                                className={`form-control ${errors.correo ? 'is-invalid' : ''}`}
+                            />
+                            <span className="color-blanc">{errors.correo}</span>
+                        </div>
+
+                        <div className="inpud-datos">
+                            <input
+                                type="text"
+                                name="ciudad"
+                                placeholder="Ciudad *"
+                                value={form.ciudad}
+                                onChange={handleChange}
+                                className={`form-control ${errors.ciudad ? 'is-invalid' : ''}`}
+                            />
+                            <span className="color-blanc">{errors.ciudad}</span>
+                        </div>
+
+                        <div className="inpud-datos">
+                            <input
+                                type="tel"
+                                name="telefono"
+                                placeholder="Teléfono *"
+                                value={form.telefono}
+                                onChange={handleChange}
+                                className={`form-control ${errors.telefono ? 'is-invalid' : ''}`}
+                            />
+                            <span className="color-blanc">{errors.telefono}</span>
+                        </div>
+
+                        <div className="inpud-select">
+                            <select
+                                name="asunto"
+                                value={form.asunto}
+                                onChange={handleChange}
+                                className={`form-control ${errors.asunto ? 'is-invalid' : ''}`}
+                            >
+                                <option value="">-- Selecciona Asunto --</option>
+                                <option value="Creación de sitio web">Creación de sitio web</option>
+                                <option value="Landing Pages">Landing Pages</option>
+                                <option value="Maquetación de Sitio web">Maquetación de Sitio web</option>
+                                <option value="Consultoría SEO">Consultoría SEO</option>
+                                <option value="Optimización para motores de búsqueda">Optimización SEO</option>
+                                <option value="Otra">Otra</option>
+                            </select>
+                            <span className="color-blanc">{errors.asunto}</span>
+                        </div>
+
+                        <div className="inpud-text">
+                            <textarea
+                                name="mensaje"
+                                placeholder="Mensaje *"
+                                value={form.mensaje}
+                                onChange={handleChange}
+                                className={`form-control ${errors.mensaje ? 'is-invalid' : ''}`}
+                            ></textarea>
+                            <span className="color-blanc">{errors.mensaje}</span>
+                        </div>
+
+                        <div className="inpud-datos color-blanc">
+                            <label className="contac-formul-div-politics">
+                                <input
+                                    type="checkbox"
+                                    name="checked"
+                                    checked={form.checked}
+                                    onChange={handleChange}
+                                    className="form-control1"
+                                />
+                                Acepto las Políticas de Privacidad
+                            </label>
+                            <span>{errors.checked}</span>
+                        </div>
+
                     </div>
 
-                </div>
-
-                <div className="formulario-buton">
-                    <button 
-                        type="submit" 
-                        disabled={!isValid}
-                        className={`form-control form-button ${!isValid ? 'none' : ''}`}
-                    >
-                        Enviar
-                    </button>
-                </div>
-            </form>
-        </div>
+                    <div className="formulario-buton">
+                        <button 
+                            type="submit" 
+                            disabled={!isValid}
+                            className={`form-control form-button ${!isValid ? 'none' : ''}`}
+                        >
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>        
+        </main>    
     );
 }
