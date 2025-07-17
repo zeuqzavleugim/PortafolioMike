@@ -196,7 +196,7 @@ export default function Formulario() {
                             disabled={!isValid}
                             className={`form-control form-button ${!isValid ? 'none' : ''}`}
                         >
-                            Enviar
+                            ¡Cotiza Ya!
                         </button>
                     </div>
                 </form>
