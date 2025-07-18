@@ -463,6 +463,47 @@ form > .formulario-div{
     font-size: 16px;
     color: green;
 }
+.main-contacto{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+.main-contacto-div{
+    display: grid;
+    width: 100%;
+    padding: 2rem;
+    justify-items: center;
+    color: #1F2937;
+}
+.main-contacto-div p{
+    font-size: 3vh;
+    color: #1F2937;
+}
+.main-contacto .img-contacto{
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+}
+.section-contacto{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    padding: 2rem;
+    color: #1F2937;
+}
+.section-contacto h3{
+    font-size: 8vh;
+    font-weight: 700;
+}
+.section-contacto p{
+    font-size: 6vh;
+    color: #1F2937;
+    font-weight: 500;
+}
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
