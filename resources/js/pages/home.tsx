@@ -19,7 +19,18 @@ export default function Home() {
             <section className="desarrollos">
                 <hr />
                 <h2>
-                    Desarrollo de páginas web rápidas y seguras
+                    Páginas web modernas, SEO técnico y 
+                    marketing digital que posiciona tu 
+                    empresa en Google.
+                </h2>
+                <hr />
+            </section>
+            {/* aqui poner los Servicios */}
+            <section className="desarrollos">
+                <hr />
+                <h2>
+                    Consultoría en marketing digital para 
+                    escalar tu negocio
                 </h2>
                 <hr />
             </section>

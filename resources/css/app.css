@@ -109,33 +109,47 @@
 }
 /*  */
 footer{
+    background: #FF6B6B;
     font-size: 1.7vw;
     display: flex;
     justify-content: space-evenly;
+    padding: 4rem 0;
+    color: #FFFFFF;
 }
 .footer-info{
     display: grid;
-}
-.footer-info > div > .footer-logo > picture > img{
-    width: 8rem;
+    /* width: 2rem; */
 }
 .footer-info > .footer-icons{
     display: flex;
-    padding: 0 0rem;
+    padding: 0 0;
+    justify-content: space-between;
     align-items: center;
 }
 .footer-icons > a{
     padding: 0 1rem;
-    width: 6rem;
+    width: 10vh;
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+.footer-sitios{
+    display: flex;
+    color: #FFFFFF;
 }
 .footer-sitio{
     display: grid;
-    color: #1F2937;
+    color: #FFFFFF;
     width: 12rem;
 }
 .footer-sitio > a{
-    color: #1F2937;
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 2.5vh;
+    &:hover{
+        text-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: scale(1.03);
+    }
 }
 .first-seccion{
     display: flex;
@@ -463,6 +477,10 @@ form > .formulario-div{
     font-size: 16px;
     color: green;
 }
+.main-principal-contacto{
+    background: #10151A;
+    padding: 2rem;
+}
 .main-contacto{
     display: flex;
     width: 95%;
@@ -472,19 +490,24 @@ form > .formulario-div{
 }
 .main-contacto-div{
     display: grid;
-    width: 100%;
-    padding: 2rem;
+    width: 90vh;
+    padding: 0rem;
     justify-items: center;
-    color: #1F2937;
+    color: #FFFFFF;
 }
 .main-contacto-div p{
     font-size: 3vh;
-    color: #1F2937;
+    color: #FFFFFF;
 }
-.main-contacto .img-contacto{
+.clas-img-div{
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+}
+.img-contacto{
     display: grid;
     justify-content: center;
-    width: 50%;
+    width: 80vh;
     border-radius: 10px;
     box-shadow: 2px 3px 5px 1px #1F2937;
 }
