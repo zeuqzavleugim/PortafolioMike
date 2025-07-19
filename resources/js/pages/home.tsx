@@ -9,7 +9,7 @@ import Formulario from "@/layouts/formulario";
 export default function Home() {
     return(
         <>
-            <Head title="Agencia de Desarrollo Web y SEO en CDMX | Sitios que Venden - MaykCoffe" />
+            <Head title="Agencia de Desarrollo Web y SEO en CDMX | Sitios que Venden" />
             <Navbar />
             <hr />
             <Info />

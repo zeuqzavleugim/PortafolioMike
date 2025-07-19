@@ -7,7 +7,7 @@
 
         <title inertia>{{ config('app.name', 'Portafolio Mike') }}</title>
         @include('descripcion')
-
+        <meta name="author" content="Miguel Angel Vazquez Aviles">
         <!-- <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
         <link rel="icon" href="{{ Vite::asset('resources/assets/Logo3.png') }}" type="image/png">
