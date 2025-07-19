@@ -11,6 +11,10 @@ Route::get('/contacto', function () {
     return Inertia::render('contacto');
 })->name('contacto');
 
+Route::get('/estamos-trabajando-para-ti', function () {
+    return Inertia::render('construccion');
+})->name('construccion');
+
 Route::post('/contact', [ContactoController::class, 'store'])->name('contact.store');
 
 

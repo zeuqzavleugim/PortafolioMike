@@ -20,14 +20,14 @@ export default function Footer() {
                 </div>
                 <div className="footer-sitios">
                     <div className="footer-sitio">
-                        <Link href="#desarrollos" title="Desarrollos">Portafolios</Link>
-                        <Link href="#conoceme" title="conoceme">Conoceme</Link>
-                        <Link href="#" title="Servicios">Servicios</Link>
+                        <Link href={route('construccion')} title="Desarrollos">Portafolios</Link>
+                        <Link href={route('construccion')} title="conoceme">Conoceme</Link>
+                        <Link href={route('construccion')} title="Servicios">Servicios</Link>
                     </div>
                     <div className="footer-sitio">
-                        <Link href="#planes" title="Planes">Planes</Link>
+                        <Link href={route('construccion')} title="Planes">Planes</Link>
                         <Link href={route('contacto')} title="contacto">Contacto</Link>
-                        <Link href="#" title="Blogs">Blogs</Link>
+                        <Link href={route('construccion')} title="Blogs">Blogs</Link>
                     </div>
                 </div>
             </footer>

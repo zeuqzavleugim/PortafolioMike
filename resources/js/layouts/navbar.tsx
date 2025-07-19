@@ -16,16 +16,16 @@ export default function Navbar() {
                 </Link>
                 <ul className="navbar-nava">
                     <li className="nav-item">
-                        <Link className="nav-link" href="#portafolios" title="portafolios">Portafolios</Link>
+                        <Link className="nav-link" href={route('construccion')} title="portafolios">Portafolios</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>
+                    <Link className="nav-link" href={route('construccion')} title="conoceme">Conoceme</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href="#" title="servicios">Servicios</Link>
+                        <Link className="nav-link" href={route('construccion')} title="servicios">Servicios</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href="#planes" title="planes">Planes</Link>
+                        <Link className="nav-link" href={route('construccion')} title="planes">Planes</Link>
                     </li>
                     <li className="navbar-blue">
                         <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
@@ -52,16 +52,16 @@ export default function Navbar() {
                                 <Link className="nav-link" href={route('home')} title="desarrollos">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#desarrollos" title="desarrollos">Desarrollos</Link>
+                                <Link className="nav-link" href={route('construccion')} title="desarrollos">Desarrollos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#conoceme" title="conoceme">Conoceme</Link>
+                                <Link className="nav-link" href={route('construccion')} title="conoceme">Conoceme</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#" title="servicios">Servicios</Link>
+                                <Link className="nav-link" href={route('construccion')} title="servicios">Servicios</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href="#planes" title="planes">Planes</Link>
+                                <Link className="nav-link" href={route('construccion')} title="planes">Planes</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
