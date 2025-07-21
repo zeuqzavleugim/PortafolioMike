@@ -9,9 +9,9 @@ export default function Footer() {
             <footer>
                 <div className="footer-info">
                     <div className="footer-icons">
-                        <Link href={route('home')} className="footer-logo" title="maykcoffe">
+                        <a href={route("home")} className="footer-logo" title="maykcoffe">
                             <img src={Icons.Logo} alt="Logotipo" title="Logotipo" loading="lazy" />
-                        </Link>
+                        </a>
                         <a href="mailto:contacto@maykcoffe.com.mx"><img src={Icons.Correo} alt="Correo" title="Correo" /></a>
                         <a href="http://www.linkedin.com/in/miguel-angel-vazquez-aviles-170abb15a/" target="_blank" title="Linkeding"><img src={Icons.Linkedin} alt="Linkeding" title="Linkeding" /></a>
                         <a href="https://www.instagram.com/mayk.vaz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram"><img src={Icons.Instagram} alt="Instagram" title="Instagram" /></a>
@@ -20,14 +20,14 @@ export default function Footer() {
                 </div>
                 <div className="footer-sitios">
                     <div className="footer-sitio">
-                        <Link href={route('construccion')} title="Desarrollos">Portafolios</Link>
-                        <Link href={route('construccion')} title="conoceme">Conoceme</Link>
-                        <Link href={route('construccion')} title="Servicios">Servicios</Link>
+                        <a href={route("construccion")} title="Desarrollos">Portafolios</a>
+                        <a href={route("construccion")} title="conoceme">Conoceme</a>
+                        <a href={route("construccion")} title="Servicios">Servicios</a>
                     </div>
                     <div className="footer-sitio">
-                        <Link href={route('construccion')} title="Planes">Planes</Link>
-                        <Link href={route('contacto')} title="contacto">Contacto</Link>
-                        <Link href={route('construccion')} title="Blogs">Blogs</Link>
+                        <Link href={route("construccion")} title="Planes">Planes</Link>
+                        <Link href={route("contacto")} title="contacto">Contacto</Link>
+                        <Link href={route("construccion")} title="Blogs">Blogs</Link>
                     </div>
                 </div>
             </footer>

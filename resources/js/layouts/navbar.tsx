@@ -6,7 +6,7 @@ export default function Navbar() {
         <>
         <nav className="navbar navbar-contraint">
             <div className="container-fluid nav-var-expain">
-                <Link className="navbar-brand" href={route('home')} title="maykcoffe">
+                <Link className="navbar-brand" href={route("home")} title="maykcoffe">
                     <img 
                         src={Icons.Logo} 
                         className="iconsLogo" 
@@ -16,19 +16,19 @@ export default function Navbar() {
                 </Link>
                 <ul className="navbar-nava">
                     <li className="nav-item">
-                        <Link className="nav-link" href={route('construccion')} title="portafolios">Portafolios</Link>
+                        <Link className="nav-link" href={route("construccion")} title="portafolios">Portafolios</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" href={route('construccion')} title="conoceme">Conoceme</Link>
+                    <Link className="nav-link" href={route("construccion")} title="conoceme">Conoceme</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href={route('construccion')} title="servicios">Servicios</Link>
+                        <Link className="nav-link" href={route("construccion")} title="servicios">Servicios</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href={route('construccion')} title="planes">Planes</Link>
+                        <Link className="nav-link" href={route("construccion")} title="planes">Planes</Link>
                     </li>
                     <li className="navbar-blue">
-                        <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
+                        <Link className="nav-link" href={route("contacto")} title="contacto">Contacto</Link>
                     </li>
                 </ul>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('home')} title="desarrollos">Inicio</Link>
+                                <Link className="nav-link" href={route("home")} title="desarrollos">Inicio</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" href={route('construccion')} title="desarrollos">Desarrollos</Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
                                 <Link className="nav-link" href={route('construccion')} title="planes">Planes</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" href={route('contacto')} title="contacto">Contacto</Link>
+                                <Link className="nav-link" href={route("contacto")} title="contacto">Contacto</Link>
                             </li>
                         </ul>
                     </div>
