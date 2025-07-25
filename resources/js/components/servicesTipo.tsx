@@ -1,12 +1,12 @@
 import { Link } from "@inertiajs/react";
 
-export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string, RutaSitio: string}) {
+export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string, RutaSitio: string, Imagen: string}) {
     if (props.Tipo === true) {
         return(
             <>
                 <div>
                     <div>
-                        <img src="" alt="" />
+                        <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
                     </div>
                     <div>
                         <div>
@@ -41,10 +41,11 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                     </div>
                     <div> 
                         <Link href={props.Ruta} title="">Cotiza</Link>
+                        <Link href={props.RutaSitio} title="">Saber más</Link>
                     </div>
                 </div>
                 <div>
-                    <img src="" alt="" />
+                    <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
                 </div>
             </>
         );
