@@ -1,6 +1,6 @@
 import { Link } from "@inertiajs/react";
 
-export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string}) {
+export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Texto: Array<string>, Ruta: string, RutaSitio: string}) {
     if (props.Tipo === true) {
         return(
             <>
@@ -20,6 +20,7 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                         </div>
                         <div>
                             <Link href={props.Ruta} title="">Cotiza</Link>
+                            <Link href={props.RutaSitio} title="">Saber más</Link>
                         </div>
                     </div>
                 </div>
