@@ -4,6 +4,7 @@ export default function Servicios() {
     return(
         <>
             <section className="services-in-home">
+                <h2>¿Listo para vender mas con tu sitio web?</h2>
                 <ServiciosTipo
                     Tipo={true}
                     Imagen="#"

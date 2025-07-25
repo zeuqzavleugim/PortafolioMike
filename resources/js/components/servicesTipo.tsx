@@ -5,10 +5,10 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
         return(
             <>
                 <div className="cart-services-uno">
-                    <div>
+                    <div className="cart-services-imag">
                         <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
                     </div>
-                    <div>
+                    <div className="cart-services-info-text">
                         <div>
                             <h2> {props.Titulo} </h2>
                         </div>
@@ -29,7 +29,8 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
     }else if (props.Tipo === false){
         return(
             <>
-                <div>
+            <div className="cart-services-uno">
+                <div className="cart-services-info-text">
                     <div>
                         <h2> {props.Titulo} </h2>
                     </div>
@@ -44,9 +45,10 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                         <Link href={props.RutaSitio} title="">Saber más</Link>
                     </div>
                 </div>
-                <div>
+                <div className="cart-services-imag">
                     <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
                 </div>
+            </div>
             </>
         );
     }

@@ -536,12 +536,25 @@ form > .formulario-div{
     /* width: 95%; */
     padding: 1rem;
     display: grid;
+    gap: 2rem;
+    text-align: center;
 }
 .cart-services-uno{
     display: flex;
     border: 1px solid #FF6B6B;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.cart-services-imag{
+    width: 30%;
+    display: grid;
+    justify-items: center;
+}
+.cart-services-info-text{
+    display: grid;
+    width: 90vh;
+    text-align: left;
 }
 /* aqui teermino */
 @media (min-width: 748px) and (max-width: 1020px){
