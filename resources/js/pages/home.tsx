@@ -5,6 +5,7 @@ import Info from "@/layouts/Info";
 import Desarrollo from "@/layouts/desarrollos";
 import Planes from "@/layouts/planes";
 import Formulario from "@/layouts/formulario";
+import Servicios from "@/layouts/servicios";
 
 export default function Home() {
     return(
@@ -25,7 +26,7 @@ export default function Home() {
                 </h2>
                 <hr />
             </section>
-            {/* aqui poner los Servicios */}
+            <Servicios/>
             <section className="desarrollos">
                 <hr />
                 <h2>
