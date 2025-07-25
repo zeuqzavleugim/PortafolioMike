@@ -531,6 +531,19 @@ form > .formulario-div{
     color: #1F2937;
     font-weight: 500;
 }
+/* esto lo hice en la oficina */
+.services-in-home{
+    /* width: 95%; */
+    padding: 1rem;
+    display: grid;
+}
+.cart-services-uno{
+    display: flex;
+    border: 1px solid #FF6B6B;
+    border-radius: 10px;
+    padding: 1rem;
+}
+/* aqui teermino */
 @media (min-width: 748px) and (max-width: 1020px){
     footer{
         font-size: 2.3vw;
@@ -614,6 +627,9 @@ form > .formulario-div{
         font-size: 1.9vh;
         color: #FFFFFF;
     }
+    /* esto lo hice en la oficina */
+    
+    /* aqui teermino */
 }
 @media (max-width: 747px){
     .nav-var-expain .navbar-nava{
@@ -762,4 +778,7 @@ form > .formulario-div{
         font-size: 3.5vh;
         text-align: center;
     }
+    /* esto lo hice en la oficina */
+    
+    /* aqui teermino */
 }

@@ -3,7 +3,7 @@ import ServiciosTipo from "@/components/servicesTipo";
 export default function Servicios() {
     return(
         <>
-            <section>
+            <section className="services-in-home">
                 <ServiciosTipo
                     Tipo={true}
                     Imagen="#"

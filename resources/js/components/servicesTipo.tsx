@@ -4,7 +4,7 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
     if (props.Tipo === true) {
         return(
             <>
-                <div>
+                <div className="cart-services-uno">
                     <div>
                         <img src={props.Imagen} alt={`Imagen-${props.Titulo}`} />
                     </div>
