@@ -685,7 +685,26 @@ form > .formulario-div{
         color: #FFFFFF;
     }
     /* esto lo hice en la oficina */
-    
+    .cart-services-uno{
+        padding: 1rem;
+    }
+    .cart-services-imag{
+        width: 18rem;
+        margin: 1rem;
+    }
+    .cart-services-info-text{
+        width: 60vh;
+    }
+    .cart-services-info-text p{
+        font-size: 2vh;
+    }
+    .cart-services-butons{
+        margin-top: 0.5rem;
+    }
+    .butonEsp{
+        width: 33%;
+        height: 2.5rem;
+    }
     /* aqui teermino */
 }
 @media (max-width: 747px){
@@ -836,6 +855,35 @@ form > .formulario-div{
         text-align: center;
     }
     /* esto lo hice en la oficina */
-    
+    .services-in-home{
+        padding: 1rem;
+        display: grid;
+    }
+    .cart-services-uno{
+        display: grid;
+        padding: 0rem;
+    }
+    .cart-services-imag{
+        width: 15rem;
+        display: grid;
+        justify-items: center;
+        margin: 1rem;
+    }
+    .cart-services-info-text{
+        width: 100%;
+    }
+    .cart-services-butons{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .cart-services-info-text p{
+        font-size: 2.6vh;
+    }
+    .butonEsp{
+        width: 37%;
+        height: 2.5rem;
+    }
     /* aqui teermino */
 }
