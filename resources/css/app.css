@@ -547,14 +547,52 @@ form > .formulario-div{
     justify-content: space-between;
 }
 .cart-services-imag{
-    width: 30%;
+    width: 20rem;
     display: grid;
     justify-items: center;
 }
+.cart-services-imag img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px #1F2937;
+    &:hover{
+        transform: translateX(20px);
+        box-shadow: 0px 0px 0px 0px #1F2937;
+    }
+}
 .cart-services-info-text{
     display: grid;
-    width: 90vh;
+    width: 110vh;
     text-align: left;
+}
+.cart-services-butons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 1rem;
+}
+.butonEsp{
+    text-decoration: none;
+    color: #1F2937;
+    width: 23%;
+    height: 2.5rem;
+    display: grid;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0.9rem;
+    background: #3ABEFF;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    transition: 500ms;
+    box-shadow: 2px 2px 0px 0px #B388EB;
+    &:hover{
+        background: #FF6B6B;
+        color: #FFFFFF;
+        box-shadow: 2px 2px 0px 0px #3ABEFF;
+        transform: translate(2px, 3px);
+    }
 }
 /* aqui teermino */
 @media (min-width: 748px) and (max-width: 1020px){

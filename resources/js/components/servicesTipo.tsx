@@ -18,9 +18,9 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                                 <p key={index}>{texto}</p>
                             ))}
                         </div>
-                        <div>
-                            <Link href={props.Ruta} title="">Cotiza</Link>
-                            <Link href={props.RutaSitio} title="">Saber más</Link>
+                        <div className="cart-services-butons">
+                            <Link href={props.Ruta} title="" className="butonEsp">Cotiza</Link>
+                            <Link href={props.RutaSitio} title="" className="butonEsp">Saber más</Link>
                         </div>
                     </div>
                 </div>
@@ -40,9 +40,9 @@ export default function ServiciosTipo(props:{Tipo: boolean, Titulo: string, Text
                             <p key={index}>{texto}</p>
                         ))}
                     </div>
-                    <div> 
-                        <Link href={props.Ruta} title="">Cotiza</Link>
-                        <Link href={props.RutaSitio} title="">Saber más</Link>
+                    <div className="cart-services-butons"> 
+                        <Link href={props.Ruta} title="" className="butonEsp">Cotiza</Link>
+                        <Link href={props.RutaSitio} title="" className="butonEsp">Saber más</Link>
                     </div>
                 </div>
                 <div className="cart-services-imag">
